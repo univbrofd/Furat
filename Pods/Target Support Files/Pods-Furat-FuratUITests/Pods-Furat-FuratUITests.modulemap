@@ -1,0 +1,6 @@
+framework module Pods_Furat_FuratUITests {
+  umbrella header "Pods-Furat-FuratUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

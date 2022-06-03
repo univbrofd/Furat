@@ -1,0 +1,1103 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4574AF885FB167DE6FFC3442 /* Pods_Furat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC7F2CF74F251F4B3CD6689 /* Pods_Furat.framework */; };
+		60DB36E3C43607CFB1DDEC81 /* Pods_Furat_FuratUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB475B1145D3BBB8DBCB08E9 /* Pods_Furat_FuratUITests.framework */; };
+		704D66EC281A0E0900DDBB49 /* VwButton1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704D66EB281A0E0900DDBB49 /* VwButton1.swift */; };
+		705BD2722824AA3F00B89144 /* VwPartyEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705BD2712824AA3F00B89144 /* VwPartyEdit.swift */; };
+		7061AD69280E23120063E91C /* VwWaterFall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7061AD68280E23120063E91C /* VwWaterFall.swift */; };
+		7061AD6B28114FD60063E91C /* VwBullDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7061AD6A28114FD60063E91C /* VwBullDetail.swift */; };
+		7061AD6D281220F00063E91C /* pvItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7061AD6C281220EF0063E91C /* pvItem.swift */; };
+		7061AD6F28122DCF0063E91C /* VwChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7061AD6E28122DCF0063E91C /* VwChat.swift */; };
+		707091A427F67468007B6D3F /* VwBullCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707091A327F67468007B6D3F /* VwBullCall.swift */; };
+		707091A627F6CE8E007B6D3F /* VwEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707091A527F6CE8E007B6D3F /* VwEx.swift */; };
+		707091A827F7E631007B6D3F /* VwBullParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707091A727F7E631007B6D3F /* VwBullParty.swift */; };
+		707091AA27F80380007B6D3F /* VwBullGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707091A927F80380007B6D3F /* VwBullGlobal.swift */; };
+		707091AC27F80B68007B6D3F /* VwBullLove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707091AB27F80B68007B6D3F /* VwBullLove.swift */; };
+		7070D26027D37EF3001F1C8F /* Smpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7070D25F27D37EF3001F1C8F /* Smpl.swift */; };
+		7070D26227D57D09001F1C8F /* para.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7070D26127D57D09001F1C8F /* para.swift */; };
+		7074DED227F9BCF4007779C4 /* VwBullTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074DED127F9BCF4007779C4 /* VwBullTag.swift */; };
+		7074DED427FB110F007779C4 /* VwTagEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074DED327FB110F007779C4 /* VwTagEdit.swift */; };
+		7074DED827FD276F007779C4 /* VwBullNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074DED727FD276F007779C4 /* VwBullNote.swift */; };
+		7074DEDC27FE9A1D007779C4 /* UICutoutType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074DEDA27FE9A1C007779C4 /* UICutoutType.swift */; };
+		7074DEDD27FE9A1D007779C4 /* VwIconEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074DEDB27FE9A1D007779C4 /* VwIconEdit.swift */; };
+		7074DEDF27FE9A91007779C4 /* UIDountCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074DEDE27FE9A91007779C4 /* UIDountCircle.swift */; };
+		7074DEE127FEF183007779C4 /* VwMypageLove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074DEE027FEF182007779C4 /* VwMypageLove.swift */; };
+		7074DEE327FEF193007779C4 /* VwMypageMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074DEE227FEF193007779C4 /* VwMypageMain.swift */; };
+		7074DEE727FEF1AE007779C4 /* VwMypageCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074DEE627FEF1AE007779C4 /* VwMypageCall.swift */; };
+		7074DEEC27FFE404007779C4 /* VwLove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074DEEB27FFE404007779C4 /* VwLove.swift */; };
+		707509382817C9A400CDF796 /* VwLoveEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707509372817C9A400CDF796 /* VwLoveEdit.swift */; };
+		7075093A2817E66300CDF796 /* VwImageEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707509392817E66300CDF796 /* VwImageEdit.swift */; };
+		7075093C281811DA00CDF796 /* VwImageGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075093B281811DA00CDF796 /* VwImageGallery.swift */; };
+		7076D9C627DF4823002302C8 /* BullChara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7076D9C527DF4823002302C8 /* BullChara.swift */; };
+		7076D9C827E466F3002302C8 /* VwMakeBull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7076D9C727E466F2002302C8 /* VwMakeBull.swift */; };
+		7076D9CD27EFE591002302C8 /* RlBull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7076D9CC27EFE591002302C8 /* RlBull.swift */; };
+		7077301A27CC5F4200E7DEA1 /* FuratApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077301927CC5F4200E7DEA1 /* FuratApp.swift */; };
+		7077301E27CC5F4500E7DEA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7077301D27CC5F4500E7DEA1 /* Assets.xcassets */; };
+		7077302127CC5F4500E7DEA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7077302027CC5F4500E7DEA1 /* Preview Assets.xcassets */; };
+		7077302B27CC5F4500E7DEA1 /* FuratTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077302A27CC5F4500E7DEA1 /* FuratTests.swift */; };
+		7077303527CC5F4500E7DEA1 /* FuratUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077303427CC5F4500E7DEA1 /* FuratUITests.swift */; };
+		7077303727CC5F4500E7DEA1 /* FuratUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077303627CC5F4500E7DEA1 /* FuratUITestsLaunchTests.swift */; };
+		7077304627CC819E00E7DEA1 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077304527CC819E00E7DEA1 /* Common.swift */; };
+		7077304827CC81C400E7DEA1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077304727CC81C400E7DEA1 /* Person.swift */; };
+		7077304A27CC81E700E7DEA1 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077304927CC81E700E7DEA1 /* Query.swift */; };
+		7077304C27CC820500E7DEA1 /* Super.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077304B27CC820500E7DEA1 /* Super.swift */; };
+		7077304E27CC822100E7DEA1 /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077304D27CC822100E7DEA1 /* Realm.swift */; };
+		7077305127CC827400E7DEA1 /* VwMsger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077305027CC827400E7DEA1 /* VwMsger.swift */; };
+		7077305327CC829600E7DEA1 /* ObMsger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077305227CC829600E7DEA1 /* ObMsger.swift */; };
+		7077305627CC82D300E7DEA1 /* VwBull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077305527CC82D300E7DEA1 /* VwBull.swift */; };
+		7077305827CC82F600E7DEA1 /* ObBull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077305727CC82F600E7DEA1 /* ObBull.swift */; };
+		7077305B27CC834000E7DEA1 /* VwMypage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077305A27CC834000E7DEA1 /* VwMypage.swift */; };
+		7077305D27CC836D00E7DEA1 /* VwMypageEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077305C27CC836D00E7DEA1 /* VwMypageEdit.swift */; };
+		7077306027CC839A00E7DEA1 /* VwLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077305F27CC839A00E7DEA1 /* VwLogin.swift */; };
+		7077306227CC83BA00E7DEA1 /* ObLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077306127CC83BA00E7DEA1 /* ObLogin.swift */; };
+		70A938AD282BD63B00CFA91C /* VwBullGrpAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A938AC282BD63B00CFA91C /* VwBullGrpAdd.swift */; };
+		70A938AF282E779B00CFA91C /* VwBullGrpEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A938AE282E779B00CFA91C /* VwBullGrpEdit.swift */; };
+		70AE13472802CA6E00F10407 /* VwIconGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AE13462802CA6E00F10407 /* VwIconGallery.swift */; };
+		70AE13492802CEE500F10407 /* VwImageSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AE13482802CEE500F10407 /* VwImageSave.swift */; };
+		70AE134B2803E5E200F10407 /* ObMypage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AE134A2803E5E200F10407 /* ObMypage.swift */; };
+		70AE134D2804E2C800F10407 /* RlMsger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AE134C2804E2C800F10407 /* RlMsger.swift */; };
+		70AE135028066E5F00F10407 /* VwBullMake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AE134F28066E5F00F10407 /* VwBullMake.swift */; };
+		70AE1352280692AF00F10407 /* VwBullMakeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AE1351280692AF00F10407 /* VwBullMakeInput.swift */; };
+		70AE135A28098E4900F10407 /* VwGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AE135928098E4900F10407 /* VwGlobal.swift */; };
+		70AE1361280A442600F10407 /* VwParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AE1360280A442600F10407 /* VwParty.swift */; };
+		70AE1363280A443C00F10407 /* VwNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AE1362280A443C00F10407 /* VwNote.swift */; };
+		70AE1365280A444B00F10407 /* VwCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AE1364280A444A00F10407 /* VwCall.swift */; };
+		70BE504627CC88E9004A8B20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70BE504527CC88E9004A8B20 /* GoogleService-Info.plist */; };
+		70CCE3B42814D84B00558E44 /* VwTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CCE3B32814D84A00558E44 /* VwTest.swift */; };
+		70CCE3B628156ECF00558E44 /* VwInputBarth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CCE3B528156ECF00558E44 /* VwInputBarth.swift */; };
+		70FDD7562820C7A700BD40CE /* VwNoteEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FDD7552820C7A700BD40CE /* VwNoteEdit.swift */; };
+		70FDD75828229BB700BD40CE /* VwBullComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FDD75728229BB600BD40CE /* VwBullComment.swift */; };
+		F9FAE44C4216A530D9FA6D80 /* Pods_FuratTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326E45A471D6935832D433CF /* Pods_FuratTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7077302727CC5F4500E7DEA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7077300E27CC5F4200E7DEA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7077301527CC5F4200E7DEA1;
+			remoteInfo = Furat;
+		};
+		7077303127CC5F4500E7DEA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7077300E27CC5F4200E7DEA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7077301527CC5F4200E7DEA1;
+			remoteInfo = Furat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ADCB8D1688C850F3573179E /* Pods-Furat-FuratUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Furat-FuratUITests.release.xcconfig"; path = "Target Support Files/Pods-Furat-FuratUITests/Pods-Furat-FuratUITests.release.xcconfig"; sourceTree = "<group>"; };
+		326E45A471D6935832D433CF /* Pods_FuratTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuratTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		704D66EB281A0E0900DDBB49 /* VwButton1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwButton1.swift; sourceTree = "<group>"; };
+		705BD2712824AA3F00B89144 /* VwPartyEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwPartyEdit.swift; sourceTree = "<group>"; };
+		7061AD68280E23120063E91C /* VwWaterFall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwWaterFall.swift; sourceTree = "<group>"; };
+		7061AD6A28114FD60063E91C /* VwBullDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwBullDetail.swift; sourceTree = "<group>"; };
+		7061AD6C281220EF0063E91C /* pvItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pvItem.swift; sourceTree = "<group>"; };
+		7061AD6E28122DCF0063E91C /* VwChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwChat.swift; sourceTree = "<group>"; };
+		707091A327F67468007B6D3F /* VwBullCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwBullCall.swift; sourceTree = "<group>"; };
+		707091A527F6CE8E007B6D3F /* VwEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwEx.swift; sourceTree = "<group>"; };
+		707091A727F7E631007B6D3F /* VwBullParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwBullParty.swift; sourceTree = "<group>"; };
+		707091A927F80380007B6D3F /* VwBullGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwBullGlobal.swift; sourceTree = "<group>"; };
+		707091AB27F80B68007B6D3F /* VwBullLove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwBullLove.swift; sourceTree = "<group>"; };
+		7070D25F27D37EF3001F1C8F /* Smpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smpl.swift; sourceTree = "<group>"; };
+		7070D26127D57D09001F1C8F /* para.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = para.swift; sourceTree = "<group>"; };
+		7074DED127F9BCF4007779C4 /* VwBullTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwBullTag.swift; sourceTree = "<group>"; };
+		7074DED327FB110F007779C4 /* VwTagEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwTagEdit.swift; sourceTree = "<group>"; };
+		7074DED727FD276F007779C4 /* VwBullNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwBullNote.swift; sourceTree = "<group>"; };
+		7074DEDA27FE9A1C007779C4 /* UICutoutType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICutoutType.swift; sourceTree = "<group>"; };
+		7074DEDB27FE9A1D007779C4 /* VwIconEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VwIconEdit.swift; sourceTree = "<group>"; };
+		7074DEDE27FE9A91007779C4 /* UIDountCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDountCircle.swift; sourceTree = "<group>"; };
+		7074DEE027FEF182007779C4 /* VwMypageLove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwMypageLove.swift; sourceTree = "<group>"; };
+		7074DEE227FEF193007779C4 /* VwMypageMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwMypageMain.swift; sourceTree = "<group>"; };
+		7074DEE627FEF1AE007779C4 /* VwMypageCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwMypageCall.swift; sourceTree = "<group>"; };
+		7074DEEB27FFE404007779C4 /* VwLove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwLove.swift; sourceTree = "<group>"; };
+		707509372817C9A400CDF796 /* VwLoveEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwLoveEdit.swift; sourceTree = "<group>"; };
+		707509392817E66300CDF796 /* VwImageEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwImageEdit.swift; sourceTree = "<group>"; };
+		7075093B281811DA00CDF796 /* VwImageGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwImageGallery.swift; sourceTree = "<group>"; };
+		7076D9C427DDEFE4002302C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7076D9C527DF4823002302C8 /* BullChara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullChara.swift; sourceTree = "<group>"; };
+		7076D9C727E466F2002302C8 /* VwMakeBull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwMakeBull.swift; sourceTree = "<group>"; };
+		7076D9CC27EFE591002302C8 /* RlBull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RlBull.swift; sourceTree = "<group>"; };
+		7077301627CC5F4200E7DEA1 /* Furat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Furat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7077301927CC5F4200E7DEA1 /* FuratApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuratApp.swift; sourceTree = "<group>"; };
+		7077301D27CC5F4500E7DEA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7077302027CC5F4500E7DEA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7077302627CC5F4500E7DEA1 /* FuratTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuratTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7077302A27CC5F4500E7DEA1 /* FuratTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuratTests.swift; sourceTree = "<group>"; };
+		7077303027CC5F4500E7DEA1 /* FuratUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuratUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7077303427CC5F4500E7DEA1 /* FuratUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuratUITests.swift; sourceTree = "<group>"; };
+		7077303627CC5F4500E7DEA1 /* FuratUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuratUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7077304327CC803800E7DEA1 /* Furat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Furat.entitlements; sourceTree = "<group>"; };
+		7077304527CC819E00E7DEA1 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		7077304727CC81C400E7DEA1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		7077304927CC81E700E7DEA1 /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		7077304B27CC820500E7DEA1 /* Super.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super.swift; sourceTree = "<group>"; };
+		7077304D27CC822100E7DEA1 /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
+		7077305027CC827400E7DEA1 /* VwMsger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwMsger.swift; sourceTree = "<group>"; };
+		7077305227CC829600E7DEA1 /* ObMsger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObMsger.swift; sourceTree = "<group>"; };
+		7077305527CC82D300E7DEA1 /* VwBull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwBull.swift; sourceTree = "<group>"; };
+		7077305727CC82F600E7DEA1 /* ObBull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObBull.swift; sourceTree = "<group>"; };
+		7077305A27CC834000E7DEA1 /* VwMypage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwMypage.swift; sourceTree = "<group>"; };
+		7077305C27CC836D00E7DEA1 /* VwMypageEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwMypageEdit.swift; sourceTree = "<group>"; };
+		7077305F27CC839A00E7DEA1 /* VwLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwLogin.swift; sourceTree = "<group>"; };
+		7077306127CC83BA00E7DEA1 /* ObLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObLogin.swift; sourceTree = "<group>"; };
+		70A938AC282BD63B00CFA91C /* VwBullGrpAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwBullGrpAdd.swift; sourceTree = "<group>"; };
+		70A938AE282E779B00CFA91C /* VwBullGrpEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwBullGrpEdit.swift; sourceTree = "<group>"; };
+		70AE13462802CA6E00F10407 /* VwIconGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwIconGallery.swift; sourceTree = "<group>"; };
+		70AE13482802CEE500F10407 /* VwImageSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwImageSave.swift; sourceTree = "<group>"; };
+		70AE134A2803E5E200F10407 /* ObMypage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObMypage.swift; sourceTree = "<group>"; };
+		70AE134C2804E2C800F10407 /* RlMsger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RlMsger.swift; sourceTree = "<group>"; };
+		70AE134F28066E5F00F10407 /* VwBullMake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwBullMake.swift; sourceTree = "<group>"; };
+		70AE1351280692AF00F10407 /* VwBullMakeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwBullMakeInput.swift; sourceTree = "<group>"; };
+		70AE135928098E4900F10407 /* VwGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwGlobal.swift; sourceTree = "<group>"; };
+		70AE1360280A442600F10407 /* VwParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwParty.swift; sourceTree = "<group>"; };
+		70AE1362280A443C00F10407 /* VwNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwNote.swift; sourceTree = "<group>"; };
+		70AE1364280A444A00F10407 /* VwCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwCall.swift; sourceTree = "<group>"; };
+		70BE504527CC88E9004A8B20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Furat/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		70CCE3B32814D84A00558E44 /* VwTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwTest.swift; sourceTree = "<group>"; };
+		70CCE3B528156ECF00558E44 /* VwInputBarth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwInputBarth.swift; sourceTree = "<group>"; };
+		70FDD7552820C7A700BD40CE /* VwNoteEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwNoteEdit.swift; sourceTree = "<group>"; };
+		70FDD75728229BB600BD40CE /* VwBullComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VwBullComment.swift; sourceTree = "<group>"; };
+		83D03126D554B093DF9106D9 /* Pods-Furat-FuratUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Furat-FuratUITests.debug.xcconfig"; path = "Target Support Files/Pods-Furat-FuratUITests/Pods-Furat-FuratUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D12DB8F168B6FBD8461E1748 /* Pods-FuratTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuratTests.debug.xcconfig"; path = "Target Support Files/Pods-FuratTests/Pods-FuratTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D28EB5C7D4BBBD663150F278 /* Pods-Furat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Furat.release.xcconfig"; path = "Target Support Files/Pods-Furat/Pods-Furat.release.xcconfig"; sourceTree = "<group>"; };
+		DAC7F2CF74F251F4B3CD6689 /* Pods_Furat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Furat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB475B1145D3BBB8DBCB08E9 /* Pods_Furat_FuratUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Furat_FuratUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52ACBEF7BAED3014024A622 /* Pods-FuratTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuratTests.release.xcconfig"; path = "Target Support Files/Pods-FuratTests/Pods-FuratTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF4F55931E2565A48CB8CBAA /* Pods-Furat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Furat.debug.xcconfig"; path = "Target Support Files/Pods-Furat/Pods-Furat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7077301327CC5F4200E7DEA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4574AF885FB167DE6FFC3442 /* Pods_Furat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7077302327CC5F4500E7DEA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FAE44C4216A530D9FA6D80 /* Pods_FuratTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7077302D27CC5F4500E7DEA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DB36E3C43607CFB1DDEC81 /* Pods_Furat_FuratUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		704D66EA281A0C5500DDBB49 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				704D66EB281A0E0900DDBB49 /* VwButton1.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		7074DED927FE997F007779C4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				7074DEDE27FE9A91007779C4 /* UIDountCircle.swift */,
+				7074DEDA27FE9A1C007779C4 /* UICutoutType.swift */,
+				70AE13462802CA6E00F10407 /* VwIconGallery.swift */,
+				7074DEDB27FE9A1D007779C4 /* VwIconEdit.swift */,
+				70AE13482802CEE500F10407 /* VwImageSave.swift */,
+				707509392817E66300CDF796 /* VwImageEdit.swift */,
+				7075093B281811DA00CDF796 /* VwImageGallery.swift */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		7074DEEA27FFE310007779C4 /* love */ = {
+			isa = PBXGroup;
+			children = (
+				7074DEEB27FFE404007779C4 /* VwLove.swift */,
+				70CCE3B528156ECF00558E44 /* VwInputBarth.swift */,
+				707509372817C9A400CDF796 /* VwLoveEdit.swift */,
+			);
+			path = love;
+			sourceTree = "<group>";
+		};
+		7077300D27CC5F4200E7DEA1 = {
+			isa = PBXGroup;
+			children = (
+				70BE504527CC88E9004A8B20 /* GoogleService-Info.plist */,
+				7077301827CC5F4200E7DEA1 /* Furat */,
+				7077302927CC5F4500E7DEA1 /* FuratTests */,
+				7077303327CC5F4500E7DEA1 /* FuratUITests */,
+				7077301727CC5F4200E7DEA1 /* Products */,
+				AC51F48D70EDEF54B1F900E8 /* Pods */,
+				7D3754EDAD4AA7A335BA9568 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7077301727CC5F4200E7DEA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7077301627CC5F4200E7DEA1 /* Furat.app */,
+				7077302627CC5F4500E7DEA1 /* FuratTests.xctest */,
+				7077303027CC5F4500E7DEA1 /* FuratUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7077301827CC5F4200E7DEA1 /* Furat */ = {
+			isa = PBXGroup;
+			children = (
+				704D66EA281A0C5500DDBB49 /* Item */,
+				70AE135F280A440F00F10407 /* party */,
+				70AE135E280A437800F10407 /* note */,
+				70AE135D280A437000F10407 /* call */,
+				7074DEEA27FFE310007779C4 /* love */,
+				70AE135828098DF100F10407 /* global */,
+				7074DED927FE997F007779C4 /* image */,
+				7076D9C427DDEFE4002302C8 /* Info.plist */,
+				7077305E27CC838300E7DEA1 /* login */,
+				7077305927CC831800E7DEA1 /* mypage */,
+				7077305427CC82B400E7DEA1 /* bull */,
+				70AE134E28066DFC00F10407 /* bullMake */,
+				7077304F27CC824E00E7DEA1 /* msger */,
+				7077304427CC818400E7DEA1 /* main */,
+				7077304327CC803800E7DEA1 /* Furat.entitlements */,
+				7077301927CC5F4200E7DEA1 /* FuratApp.swift */,
+				7077301D27CC5F4500E7DEA1 /* Assets.xcassets */,
+				7077301F27CC5F4500E7DEA1 /* Preview Content */,
+				7061AD68280E23120063E91C /* VwWaterFall.swift */,
+				70CCE3B32814D84A00558E44 /* VwTest.swift */,
+			);
+			path = Furat;
+			sourceTree = "<group>";
+		};
+		7077301F27CC5F4500E7DEA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7077302027CC5F4500E7DEA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7077302927CC5F4500E7DEA1 /* FuratTests */ = {
+			isa = PBXGroup;
+			children = (
+				7077302A27CC5F4500E7DEA1 /* FuratTests.swift */,
+			);
+			path = FuratTests;
+			sourceTree = "<group>";
+		};
+		7077303327CC5F4500E7DEA1 /* FuratUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7077303427CC5F4500E7DEA1 /* FuratUITests.swift */,
+				7077303627CC5F4500E7DEA1 /* FuratUITestsLaunchTests.swift */,
+			);
+			path = FuratUITests;
+			sourceTree = "<group>";
+		};
+		7077304427CC818400E7DEA1 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				7077304527CC819E00E7DEA1 /* Common.swift */,
+				7077304727CC81C400E7DEA1 /* Person.swift */,
+				7077304927CC81E700E7DEA1 /* Query.swift */,
+				7077304B27CC820500E7DEA1 /* Super.swift */,
+				7077304D27CC822100E7DEA1 /* Realm.swift */,
+				7070D25F27D37EF3001F1C8F /* Smpl.swift */,
+				7070D26127D57D09001F1C8F /* para.swift */,
+				707091A527F6CE8E007B6D3F /* VwEx.swift */,
+				7061AD6C281220EF0063E91C /* pvItem.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		7077304F27CC824E00E7DEA1 /* msger */ = {
+			isa = PBXGroup;
+			children = (
+				7077305027CC827400E7DEA1 /* VwMsger.swift */,
+				7077305227CC829600E7DEA1 /* ObMsger.swift */,
+				70AE134C2804E2C800F10407 /* RlMsger.swift */,
+				7061AD6E28122DCF0063E91C /* VwChat.swift */,
+			);
+			path = msger;
+			sourceTree = "<group>";
+		};
+		7077305427CC82B400E7DEA1 /* bull */ = {
+			isa = PBXGroup;
+			children = (
+				7077305527CC82D300E7DEA1 /* VwBull.swift */,
+				7077305727CC82F600E7DEA1 /* ObBull.swift */,
+				7076D9C527DF4823002302C8 /* BullChara.swift */,
+				7076D9C727E466F2002302C8 /* VwMakeBull.swift */,
+				7076D9CC27EFE591002302C8 /* RlBull.swift */,
+				707091A327F67468007B6D3F /* VwBullCall.swift */,
+				707091A727F7E631007B6D3F /* VwBullParty.swift */,
+				707091A927F80380007B6D3F /* VwBullGlobal.swift */,
+				707091AB27F80B68007B6D3F /* VwBullLove.swift */,
+				7074DED727FD276F007779C4 /* VwBullNote.swift */,
+				7074DED127F9BCF4007779C4 /* VwBullTag.swift */,
+				7074DED327FB110F007779C4 /* VwTagEdit.swift */,
+				7061AD6A28114FD60063E91C /* VwBullDetail.swift */,
+				70FDD75728229BB600BD40CE /* VwBullComment.swift */,
+				70A938AC282BD63B00CFA91C /* VwBullGrpAdd.swift */,
+				70A938AE282E779B00CFA91C /* VwBullGrpEdit.swift */,
+			);
+			path = bull;
+			sourceTree = "<group>";
+		};
+		7077305927CC831800E7DEA1 /* mypage */ = {
+			isa = PBXGroup;
+			children = (
+				7077305A27CC834000E7DEA1 /* VwMypage.swift */,
+				7077305C27CC836D00E7DEA1 /* VwMypageEdit.swift */,
+				7074DEE227FEF193007779C4 /* VwMypageMain.swift */,
+				7074DEE027FEF182007779C4 /* VwMypageLove.swift */,
+				7074DEE627FEF1AE007779C4 /* VwMypageCall.swift */,
+				70AE134A2803E5E200F10407 /* ObMypage.swift */,
+			);
+			path = mypage;
+			sourceTree = "<group>";
+		};
+		7077305E27CC838300E7DEA1 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				7077305F27CC839A00E7DEA1 /* VwLogin.swift */,
+				7077306127CC83BA00E7DEA1 /* ObLogin.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		70AE134E28066DFC00F10407 /* bullMake */ = {
+			isa = PBXGroup;
+			children = (
+				70AE134F28066E5F00F10407 /* VwBullMake.swift */,
+				70AE1351280692AF00F10407 /* VwBullMakeInput.swift */,
+			);
+			path = bullMake;
+			sourceTree = "<group>";
+		};
+		70AE135828098DF100F10407 /* global */ = {
+			isa = PBXGroup;
+			children = (
+				70AE135928098E4900F10407 /* VwGlobal.swift */,
+			);
+			path = global;
+			sourceTree = "<group>";
+		};
+		70AE135D280A437000F10407 /* call */ = {
+			isa = PBXGroup;
+			children = (
+				70AE1364280A444A00F10407 /* VwCall.swift */,
+			);
+			path = call;
+			sourceTree = "<group>";
+		};
+		70AE135E280A437800F10407 /* note */ = {
+			isa = PBXGroup;
+			children = (
+				70AE1362280A443C00F10407 /* VwNote.swift */,
+				70FDD7552820C7A700BD40CE /* VwNoteEdit.swift */,
+			);
+			path = note;
+			sourceTree = "<group>";
+		};
+		70AE135F280A440F00F10407 /* party */ = {
+			isa = PBXGroup;
+			children = (
+				70AE1360280A442600F10407 /* VwParty.swift */,
+				705BD2712824AA3F00B89144 /* VwPartyEdit.swift */,
+			);
+			path = party;
+			sourceTree = "<group>";
+		};
+		7D3754EDAD4AA7A335BA9568 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAC7F2CF74F251F4B3CD6689 /* Pods_Furat.framework */,
+				EB475B1145D3BBB8DBCB08E9 /* Pods_Furat_FuratUITests.framework */,
+				326E45A471D6935832D433CF /* Pods_FuratTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC51F48D70EDEF54B1F900E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF4F55931E2565A48CB8CBAA /* Pods-Furat.debug.xcconfig */,
+				D28EB5C7D4BBBD663150F278 /* Pods-Furat.release.xcconfig */,
+				83D03126D554B093DF9106D9 /* Pods-Furat-FuratUITests.debug.xcconfig */,
+				1ADCB8D1688C850F3573179E /* Pods-Furat-FuratUITests.release.xcconfig */,
+				D12DB8F168B6FBD8461E1748 /* Pods-FuratTests.debug.xcconfig */,
+				F52ACBEF7BAED3014024A622 /* Pods-FuratTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7077301527CC5F4200E7DEA1 /* Furat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7077303A27CC5F4500E7DEA1 /* Build configuration list for PBXNativeTarget "Furat" */;
+			buildPhases = (
+				E916DAB8C6ADFD64BB99341F /* [CP] Check Pods Manifest.lock */,
+				7077301227CC5F4200E7DEA1 /* Sources */,
+				7077301327CC5F4200E7DEA1 /* Frameworks */,
+				7077301427CC5F4200E7DEA1 /* Resources */,
+				5A1231C0452EBEAF61B3EAA2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Furat;
+			packageProductDependencies = (
+			);
+			productName = Furat;
+			productReference = 7077301627CC5F4200E7DEA1 /* Furat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7077302527CC5F4500E7DEA1 /* FuratTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7077303D27CC5F4500E7DEA1 /* Build configuration list for PBXNativeTarget "FuratTests" */;
+			buildPhases = (
+				06E2A27D9B4450307C1B5DD9 /* [CP] Check Pods Manifest.lock */,
+				7077302227CC5F4500E7DEA1 /* Sources */,
+				7077302327CC5F4500E7DEA1 /* Frameworks */,
+				7077302427CC5F4500E7DEA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7077302827CC5F4500E7DEA1 /* PBXTargetDependency */,
+			);
+			name = FuratTests;
+			productName = FuratTests;
+			productReference = 7077302627CC5F4500E7DEA1 /* FuratTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7077302F27CC5F4500E7DEA1 /* FuratUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7077304027CC5F4500E7DEA1 /* Build configuration list for PBXNativeTarget "FuratUITests" */;
+			buildPhases = (
+				0211AA2E4F2592B256F28600 /* [CP] Check Pods Manifest.lock */,
+				7077302C27CC5F4500E7DEA1 /* Sources */,
+				7077302D27CC5F4500E7DEA1 /* Frameworks */,
+				7077302E27CC5F4500E7DEA1 /* Resources */,
+				0D51DBD4D13077E37F9748AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7077303227CC5F4500E7DEA1 /* PBXTargetDependency */,
+			);
+			name = FuratUITests;
+			productName = FuratUITests;
+			productReference = 7077303027CC5F4500E7DEA1 /* FuratUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7077300E27CC5F4200E7DEA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7077301527CC5F4200E7DEA1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7077302527CC5F4500E7DEA1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7077301527CC5F4200E7DEA1;
+					};
+					7077302F27CC5F4500E7DEA1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7077301527CC5F4200E7DEA1;
+					};
+				};
+			};
+			buildConfigurationList = 7077301127CC5F4200E7DEA1 /* Build configuration list for PBXProject "Furat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 7077300D27CC5F4200E7DEA1;
+			packageReferences = (
+			);
+			productRefGroup = 7077301727CC5F4200E7DEA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7077301527CC5F4200E7DEA1 /* Furat */,
+				7077302527CC5F4500E7DEA1 /* FuratTests */,
+				7077302F27CC5F4500E7DEA1 /* FuratUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7077301427CC5F4200E7DEA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BE504627CC88E9004A8B20 /* GoogleService-Info.plist in Resources */,
+				7077302127CC5F4500E7DEA1 /* Preview Assets.xcassets in Resources */,
+				7077301E27CC5F4500E7DEA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7077302427CC5F4500E7DEA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7077302E27CC5F4500E7DEA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0211AA2E4F2592B256F28600 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Furat-FuratUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06E2A27D9B4450307C1B5DD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FuratTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D51DBD4D13077E37F9748AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Furat-FuratUITests/Pods-Furat-FuratUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Furat-FuratUITests/Pods-Furat-FuratUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Furat-FuratUITests/Pods-Furat-FuratUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A1231C0452EBEAF61B3EAA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Furat/Pods-Furat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Furat/Pods-Furat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Furat/Pods-Furat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E916DAB8C6ADFD64BB99341F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Furat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7077301227CC5F4200E7DEA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707091A627F6CE8E007B6D3F /* VwEx.swift in Sources */,
+				70A938AD282BD63B00CFA91C /* VwBullGrpAdd.swift in Sources */,
+				7077306027CC839A00E7DEA1 /* VwLogin.swift in Sources */,
+				7074DEE327FEF193007779C4 /* VwMypageMain.swift in Sources */,
+				7077304A27CC81E700E7DEA1 /* Query.swift in Sources */,
+				7061AD6B28114FD60063E91C /* VwBullDetail.swift in Sources */,
+				70FDD75828229BB700BD40CE /* VwBullComment.swift in Sources */,
+				7077304C27CC820500E7DEA1 /* Super.swift in Sources */,
+				707091AA27F80380007B6D3F /* VwBullGlobal.swift in Sources */,
+				70CCE3B628156ECF00558E44 /* VwInputBarth.swift in Sources */,
+				7075093C281811DA00CDF796 /* VwImageGallery.swift in Sources */,
+				70AE1363280A443C00F10407 /* VwNote.swift in Sources */,
+				707091AC27F80B68007B6D3F /* VwBullLove.swift in Sources */,
+				70FDD7562820C7A700BD40CE /* VwNoteEdit.swift in Sources */,
+				707091A427F67468007B6D3F /* VwBullCall.swift in Sources */,
+				7074DEDD27FE9A1D007779C4 /* VwIconEdit.swift in Sources */,
+				70AE135A28098E4900F10407 /* VwGlobal.swift in Sources */,
+				7077305327CC829600E7DEA1 /* ObMsger.swift in Sources */,
+				70AE1352280692AF00F10407 /* VwBullMakeInput.swift in Sources */,
+				70AE13492802CEE500F10407 /* VwImageSave.swift in Sources */,
+				7077305D27CC836D00E7DEA1 /* VwMypageEdit.swift in Sources */,
+				70AE134D2804E2C800F10407 /* RlMsger.swift in Sources */,
+				7074DEE727FEF1AE007779C4 /* VwMypageCall.swift in Sources */,
+				70A938AF282E779B00CFA91C /* VwBullGrpEdit.swift in Sources */,
+				7076D9C627DF4823002302C8 /* BullChara.swift in Sources */,
+				705BD2722824AA3F00B89144 /* VwPartyEdit.swift in Sources */,
+				7077305627CC82D300E7DEA1 /* VwBull.swift in Sources */,
+				707509382817C9A400CDF796 /* VwLoveEdit.swift in Sources */,
+				70AE1365280A444B00F10407 /* VwCall.swift in Sources */,
+				7077305127CC827400E7DEA1 /* VwMsger.swift in Sources */,
+				7077304E27CC822100E7DEA1 /* Realm.swift in Sources */,
+				7077304627CC819E00E7DEA1 /* Common.swift in Sources */,
+				7070D26227D57D09001F1C8F /* para.swift in Sources */,
+				7074DEDC27FE9A1D007779C4 /* UICutoutType.swift in Sources */,
+				70AE1361280A442600F10407 /* VwParty.swift in Sources */,
+				7077306227CC83BA00E7DEA1 /* ObLogin.swift in Sources */,
+				7077304827CC81C400E7DEA1 /* Person.swift in Sources */,
+				70AE13472802CA6E00F10407 /* VwIconGallery.swift in Sources */,
+				7061AD6F28122DCF0063E91C /* VwChat.swift in Sources */,
+				7074DEE127FEF183007779C4 /* VwMypageLove.swift in Sources */,
+				7075093A2817E66300CDF796 /* VwImageEdit.swift in Sources */,
+				7070D26027D37EF3001F1C8F /* Smpl.swift in Sources */,
+				707091A827F7E631007B6D3F /* VwBullParty.swift in Sources */,
+				7077305B27CC834000E7DEA1 /* VwMypage.swift in Sources */,
+				70CCE3B42814D84B00558E44 /* VwTest.swift in Sources */,
+				7076D9CD27EFE591002302C8 /* RlBull.swift in Sources */,
+				7077301A27CC5F4200E7DEA1 /* FuratApp.swift in Sources */,
+				7077305827CC82F600E7DEA1 /* ObBull.swift in Sources */,
+				7074DED427FB110F007779C4 /* VwTagEdit.swift in Sources */,
+				7074DEDF27FE9A91007779C4 /* UIDountCircle.swift in Sources */,
+				7061AD6D281220F00063E91C /* pvItem.swift in Sources */,
+				7074DED827FD276F007779C4 /* VwBullNote.swift in Sources */,
+				7074DED227F9BCF4007779C4 /* VwBullTag.swift in Sources */,
+				704D66EC281A0E0900DDBB49 /* VwButton1.swift in Sources */,
+				7061AD69280E23120063E91C /* VwWaterFall.swift in Sources */,
+				7074DEEC27FFE404007779C4 /* VwLove.swift in Sources */,
+				70AE135028066E5F00F10407 /* VwBullMake.swift in Sources */,
+				70AE134B2803E5E200F10407 /* ObMypage.swift in Sources */,
+				7076D9C827E466F3002302C8 /* VwMakeBull.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7077302227CC5F4500E7DEA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7077302B27CC5F4500E7DEA1 /* FuratTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7077302C27CC5F4500E7DEA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7077303527CC5F4500E7DEA1 /* FuratUITests.swift in Sources */,
+				7077303727CC5F4500E7DEA1 /* FuratUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7077302827CC5F4500E7DEA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7077301527CC5F4200E7DEA1 /* Furat */;
+			targetProxy = 7077302727CC5F4500E7DEA1 /* PBXContainerItemProxy */;
+		};
+		7077303227CC5F4500E7DEA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7077301527CC5F4200E7DEA1 /* Furat */;
+			targetProxy = 7077303127CC5F4500E7DEA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7077303827CC5F4500E7DEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7077303927CC5F4500E7DEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7077303B27CC5F4500E7DEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4F55931E2565A48CB8CBAA /* Pods-Furat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Furat/Furat.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Furat/Preview Content\"";
+				DEVELOPMENT_TEAM = F399XQS289;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Furat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ubf.ios.Furat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Furat Distribution";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7077303C27CC5F4500E7DEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28EB5C7D4BBBD663150F278 /* Pods-Furat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Furat/Furat.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Furat/Preview Content\"";
+				DEVELOPMENT_TEAM = F399XQS289;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Furat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ubf.ios.Furat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Furat Distribution";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7077303E27CC5F4500E7DEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12DB8F168B6FBD8461E1748 /* Pods-FuratTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F399XQS289;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ubf.ios.FuratTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Furat.app/Furat";
+			};
+			name = Debug;
+		};
+		7077303F27CC5F4500E7DEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F52ACBEF7BAED3014024A622 /* Pods-FuratTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F399XQS289;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ubf.ios.FuratTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Furat.app/Furat";
+			};
+			name = Release;
+		};
+		7077304127CC5F4500E7DEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D03126D554B093DF9106D9 /* Pods-Furat-FuratUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F399XQS289;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ubf.ios.FuratUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Furat;
+			};
+			name = Debug;
+		};
+		7077304227CC5F4500E7DEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ADCB8D1688C850F3573179E /* Pods-Furat-FuratUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F399XQS289;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ubf.ios.FuratUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Furat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7077301127CC5F4200E7DEA1 /* Build configuration list for PBXProject "Furat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7077303827CC5F4500E7DEA1 /* Debug */,
+				7077303927CC5F4500E7DEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7077303A27CC5F4500E7DEA1 /* Build configuration list for PBXNativeTarget "Furat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7077303B27CC5F4500E7DEA1 /* Debug */,
+				7077303C27CC5F4500E7DEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7077303D27CC5F4500E7DEA1 /* Build configuration list for PBXNativeTarget "FuratTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7077303E27CC5F4500E7DEA1 /* Debug */,
+				7077303F27CC5F4500E7DEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7077304027CC5F4500E7DEA1 /* Build configuration list for PBXNativeTarget "FuratUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7077304127CC5F4500E7DEA1 /* Debug */,
+				7077304227CC5F4500E7DEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7077300E27CC5F4200E7DEA1 /* Project object */;
+}
